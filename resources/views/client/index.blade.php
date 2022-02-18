@@ -9,7 +9,24 @@
 
 <body>
 
-@include('layout.header')
+<header class="header">
+    @include('layout.header')
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <nav class="header__menu mobile-menu">
+                    <ul>
+                        <li class="active"><a href="/">Home</a></li>
+                        <li ><a href="/about-us">About</a></li>
+                        <li ><a href="/shop">Shop</a></li>
+                        <li><a href="/blog">Blog</a></li>
+                        <li><a href="/contact-us">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+</header>
 
 <!-- Hero Section Begin -->
 <section class="hero">
@@ -145,7 +162,7 @@
                         </div>
                     </div>
                     <div class="product__item__text">
-                        <h6><a href="#">Dozen Cupcakes</a></h6>
+                        <h6><a href="/detail">Dozen Cupcakes</a></h6>
                         <div class="product__item__price">$32.00</div>
                         <div class="cart_add">
                             <a href="#">Add to cart</a>
@@ -161,7 +178,7 @@
                         </div>
                     </div>
                     <div class="product__item__text">
-                        <h6><a href="#">Cookies and Cream</a></h6>
+                        <h6><a href="/detail">Cookies and Cream</a></h6>
                         <div class="product__item__price">$30.00</div>
                         <div class="cart_add">
                             <a href="#">Add to cart</a>
@@ -177,7 +194,7 @@
                         </div>
                     </div>
                     <div class="product__item__text">
-                        <h6><a href="#">Gluten Free Mini Dozen</a></h6>
+                        <h6><a href="/detail">Gluten Free Mini Dozen</a></h6>
                         <div class="product__item__price">$31.00</div>
                         <div class="cart_add">
                             <a href="#">Add to cart</a>
@@ -193,7 +210,7 @@
                         </div>
                     </div>
                     <div class="product__item__text">
-                        <h6><a href="#">Cookie Dough</a></h6>
+                        <h6><a href="/detail">Cookie Dough</a></h6>
                         <div class="product__item__price">$25.00</div>
                         <div class="cart_add">
                             <a href="#">Add to cart</a>
@@ -209,7 +226,7 @@
                         </div>
                     </div>
                     <div class="product__item__text">
-                        <h6><a href="#">Vanilla Salted Caramel</a></h6>
+                        <h6><a href="/detail">Vanilla Salted Caramel</a></h6>
                         <div class="product__item__price">$05.00</div>
                         <div class="cart_add">
                             <a href="#">Add to cart</a>
@@ -225,7 +242,7 @@
                         </div>
                     </div>
                     <div class="product__item__text">
-                        <h6><a href="#">German Chocolate</a></h6>
+                        <h6><a href="/detail">German Chocolate</a></h6>
                         <div class="product__item__price">$14.00</div>
                         <div class="cart_add">
                             <a href="#">Add to cart</a>
@@ -241,7 +258,7 @@
                         </div>
                     </div>
                     <div class="product__item__text">
-                        <h6><a href="#">Dulce De Leche</a></h6>
+                        <h6><a href="/detail">Dulce De Leche</a></h6>
                         <div class="product__item__price">$32.00</div>
                         <div class="cart_add">
                             <a href="#">Add to cart</a>
@@ -257,7 +274,7 @@
                         </div>
                     </div>
                     <div class="product__item__text">
-                        <h6><a href="#">Mississippi Mud</a></h6>
+                        <h6><a href="/detail">Mississippi Mud</a></h6>
                         <div class="product__item__price">$08.00</div>
                         <div class="cart_add">
                             <a href="#">Add to cart</a>
