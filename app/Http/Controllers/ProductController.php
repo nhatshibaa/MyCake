@@ -11,6 +11,21 @@ class ProductController extends Controller
     {
         return view('client.shop-detail');
     }
+
+    public function cart()
+    {
+        return view('client.cart');
+    }
+
+    public function checkout()
+    {
+        return view('client.checkout');
+    }
+
+    public function wishlist()
+    {
+        return view('client.wishlist');
+    }
 }
 
 
